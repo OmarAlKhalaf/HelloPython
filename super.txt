@@ -1,0 +1,9 @@
+https://replit.com/
+
+Replit.
+
+Met Replit kunnen gebruikers code schrijven en apps en websites bouwen met behulp van een browser.
+De site heeft ook verschillende samenwerkingsfuncties, waaronder de mogelijkheid voor realtime bewerking door meerdere gebruikers met een livechat-feed.
+Het ondersteunt meer dan 50 programmeer- en opmaaktalen, waaronder Java, Python en HTML, waardoor gebruikers apps en websites kunnen bouwen.
+De site is geïntegreerd met GitHub, een code-hostingplatform, dat een manier biedt om projecten van GitHub te importeren en uit te voeren.
+Gebruikers kunnen ook projecten importeren uit Glitch, dat een vergelijkbare service biedt als Replit.
