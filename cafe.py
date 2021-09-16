@@ -1,7 +1,6 @@
 drenking = input(" do u want to drenk?")
 if drenking == "yes":
     what = input("what do u want to drenk?")
-    what = input("we have beer, wine, soft")
     if what == "wine":
         age = input("what is ur age?")
         if int(age) >= 18:
