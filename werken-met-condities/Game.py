@@ -21,6 +21,10 @@ start = input(bcolors.UNDERLINE + bcolors.HEADER + "Do u wanna to try it? yes/no
 if start == "yes":
     print(bcolors.OKCYAN + """Great i know that u will love it as i did
 i will bring it today after school. see you later """+ name +bcolors.ENDC)
+    print(bcolors.OKCYAN + """you at home now and you are waiting for your friend to arrive.
+knok knok !! you opend the door,it's Mike your friend.
+Hii Mike i was waiting for you ! did you bring it ? 
+Mike say : yes i did here it is,enjoei it and after you finsh let me know.
+i will leave now adn let u play ^_^.""" + bcolors.ENDC)
 elif start == "no":
     print(bcolors.OKCYAN + "well it's up to " + name + "you see you later " + bcolors.ENDC)
-    
