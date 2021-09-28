@@ -63,6 +63,11 @@ Wat do u choose? type the weapon name : """ + bcolors.ENDC)
             print(bcolors.OKBLUE +"""Way 1 : long but not really safe 
 Way 2 : short but really dangerous"""+ bcolors.ENDC)
             start6 = input(bcolors.UNDERLINE + bcolors.HEADER + "Which way do u wanna go with? 1/2 : " + bcolors.ENDC)
-
+            if start6 == "1":
+                print(bcolors.OKBLUE + "hola" + bcolors.ENDC)
+            elif start6 == "2":
+                print(bcolors.OKBLUE + "kaka" + bcolors.ENDC)    
+    elif start2 == "B" or start2 == "b":
+        print("bitsh")
 else:
     print(bcolors.OKCYAN + "well it's up to " + name + " you see you later " + bcolors.ENDC)
