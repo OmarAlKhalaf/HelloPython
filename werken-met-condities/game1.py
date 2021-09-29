@@ -76,6 +76,7 @@ on your way you see Goblens in here and u have to fight them to passed over or u
                 start8 = input(bcolors.UNDERLINE + bcolors.HEADER +"Fight or the Door? : "+ bcolors.ENDC)
                 if start8 == " fight" or start8 == "f":
                     print(bcolors.OKBLUE +"You passed over and you got out of ther safe with out any damge"+ bcolors.ENDC)
+                    
                 else:
                     print(bcolors.OKBLUE +"In this door u walk in to dead end and Goblens are behind you and thy kild u {* Gmae over *}"+ bcolors.ENDC)
 
