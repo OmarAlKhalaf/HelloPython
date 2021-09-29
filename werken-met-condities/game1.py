@@ -18,7 +18,7 @@ First is the human team :They don't have that much of the power but they do have
 and second team is ! you guessed it goblean :they have magic and dragons. the dragons are tough to kill but they dont comea in a groups.
 it's really good game so what do u say?""" + bcolors.ENDC)
 start = input(bcolors.UNDERLINE + bcolors.HEADER + "Do u wanna to try it? yes/no : " + bcolors.ENDC)
-if start == "yes":
+if start == "yes" or start == "y":
     print(bcolors.OKCYAN + """Great i know that u will love it as i did
 i will bring it today after school. see you later """+ name +bcolors.ENDC)
     print(bcolors.OKCYAN + """you at home now and you are waiting for your friend to arrive.
@@ -33,7 +33,7 @@ i will leave now ^_^.""" + bcolors.ENDC)
 press A or B : """ + bcolors.ENDC)
     if start2 == "A" or start2 == "a":
         start3 = input(bcolors.UNDERLINE + bcolors.HEADER + "choose your sex Man or Woman : " + bcolors.ENDC)
-        if start3 == "man" or start3 == "Man" or start3 == "Woman" or start3 == "woman":
+        if start3 == "man" or start3 == "Man" or start3 == "Woman" or start3 == "woman" or start3 == "m" or start3 == "w":
             print(bcolors.OKBLUE + "Welcom to the human world " + name1 + """,
 you walking in the city and you need to gear up and you see smithy workshop you go in and askd hem that you need to gear up and and he recommend.
 Sword with shield, Longsword, Bow and arrow, Dual short swords.
@@ -64,9 +64,21 @@ Wat do u choose? type the weapon name : """ + bcolors.ENDC)
 Way 2 : short but really dangerous"""+ bcolors.ENDC)
             start6 = input(bcolors.UNDERLINE + bcolors.HEADER + "Which way do u wanna go with? 1/2 : " + bcolors.ENDC)
             if start6 == "1":
-                print(bcolors.OKBLUE + "hola" + bcolors.ENDC)
+                print(bcolors.OKBLUE + "you are walking mid way and you see a door you do not know what in side " + bcolors.ENDC)
+                start7 = input(bcolors.UNDERLINE + bcolors.HEADER +"Do u wanna go ? yes/no"+ bcolors.ENDC)
+                if start7 == "yes" or start7 == "y":
+                    print(bcolors.OKBLUE +"This way is lead you to the out side. and you are safe with out ange damge"+ bcolors.ENDC)
+                else:
+                    print(bcolors.OKBLUE +"Ther is alot of Goblens in here and you are dead {* Game over *}" + bcolors.ENDC )
             elif start6 == "2":
-                print(bcolors.OKBLUE + "kaka" + bcolors.ENDC)    
+                print(bcolors.OKBLUE + """you are walking and you see a door to the left but you ignore it and you keep walking. 
+on your way you see Goblens in here and u have to fight them to passed over or u run back and go in to the door.""" + bcolors.ENDC)  
+                start8 = input(bcolors.UNDERLINE + bcolors.HEADER +"Fight or the Door? : "+ bcolors.ENDC)
+                if start8 == " fight" or start8 == "f":
+                    print(bcolors.OKBLUE +"You passed over and you got out of ther safe with out any damge"+ bcolors.ENDC)
+                else:
+                    print(bcolors.OKBLUE +"In this door u walk in to dead end and Goblens are behind you and thy kild u {* Gmae over *}"+ bcolors.ENDC)
+
     elif start2 == "B" or start2 == "b":
         print("bitsh")
 else:
