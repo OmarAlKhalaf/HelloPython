@@ -68,6 +68,7 @@ Way 2 : short but really dangerous"""+ bcolors.ENDC)
                 start7 = input(bcolors.UNDERLINE + bcolors.HEADER +"Do u wanna go ? yes/no"+ bcolors.ENDC)
                 if start7 == "yes" or start7 == "y":
                     print(bcolors.OKBLUE +"This way is lead you to the out side. and you are safe with out ange damge"+ bcolors.ENDC)
+                    print(bcolors.OKBLUE +""+ bcolors.ENDC)
                 else:
                     print(bcolors.OKBLUE +"Ther is alot of Goblens in here and you are dead {* Game over *}" + bcolors.ENDC )
             elif start6 == "2":
@@ -76,11 +77,11 @@ on your way you see Goblens in here and u have to fight them to passed over or u
                 start8 = input(bcolors.UNDERLINE + bcolors.HEADER +"Fight or the Door? : "+ bcolors.ENDC)
                 if start8 == " fight" or start8 == "f":
                     print(bcolors.OKBLUE +"You passed over and you got out of ther safe with out any damge"+ bcolors.ENDC)
-                    
+                    print(bcolors.OKBLUE +"Now "+ bcolors.ENDC)
                 else:
                     print(bcolors.OKBLUE +"In this door u walk in to dead end and Goblens are behind you and thy kild u {* Gmae over *}"+ bcolors.ENDC)
 
     elif start2 == "B" or start2 == "b":
         print("bitsh")
 else:
-    print(bcolors.OKCYAN + "well it's up to " + name + " you see you later " + bcolors.ENDC)
+    print(bcolors.OKCYAN + "well it's up to " + name + " you see you later " + bcolors.ENDC)  
