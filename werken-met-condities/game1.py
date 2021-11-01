@@ -68,7 +68,13 @@ Way 2 : short but really dangerous"""+ bcolors.ENDC)
                 start7 = input(bcolors.UNDERLINE + bcolors.HEADER +"Do u wanna go ? yes/no"+ bcolors.ENDC)
                 if start7 == "yes" or start7 == "y":
                     print(bcolors.OKBLUE +"This way is lead you to the out side. and you are safe with out ange damge"+ bcolors.ENDC)
-                    print(bcolors.OKBLUE +""+ bcolors.ENDC)
+                    print(bcolors.OKBLUE +"""You are fighting with your team, then dragon fly in to you,you know it the he's looking for you,"""+ bcolors.ENDC)
+                    sart9= input(bcolors.UNDERLINE + bcolors.HEADER +""" 1: so you run away from your team that he can't damage any of your team?and fight hem alone ?
+ 2: or you fight hem with your team ?"""+ bcolors.ENDC)
+                    if sart9 == "1":
+                        print(bcolors.OKBLUE +"you did kill hem but you are realy injured and you can't fight anymore{Game over}"+ bcolors.ENDC)
+                    elif sart9 =="2":
+                        print(bcolors.OKBLUE +"You kild hem with your team and you win the Game (Congratulation)"+ bcolors.ENDC)
                 else:
                     print(bcolors.OKBLUE +"Ther is alot of Goblens in here and you are dead {* Game over *}" + bcolors.ENDC )
             elif start6 == "2":
@@ -77,7 +83,13 @@ on your way you see Goblens in here and u have to fight them to passed over or u
                 start8 = input(bcolors.UNDERLINE + bcolors.HEADER +"Fight or the Door? : "+ bcolors.ENDC)
                 if start8 == " fight" or start8 == "f":
                     print(bcolors.OKBLUE +"You passed over and you got out of ther safe with out any damge"+ bcolors.ENDC)
-                    print(bcolors.OKBLUE +"Now "+ bcolors.ENDC)
+                    print(bcolors.OKBLUE +"""You are fighting with your team, then dragon fly in to you,you know it the he's looking for you,"""+ bcolors.ENDC)
+                    sart9= input(bcolors.UNDERLINE + bcolors.HEADER +""" 1: so you run away from your team that he can't damage any of your team?and fight hem alone ?
+ 2: or you fight hem with your team ?"""+ bcolors.ENDC)
+                    if sart9 == "1":
+                        print(bcolors.OKBLUE +"you did kill hem but you are realy injured and you can't fight anymore{Game over}"+ bcolors.ENDC)
+                    elif sart9 =="2":
+                        print(bcolors.OKBLUE +"You kild hem with your team and you win the Game (Congratulation)"+ bcolors.ENDC)
                 else:
                     print(bcolors.OKBLUE +"In this door u walk in to dead end and Goblens are behind you and thy kild u {* Gmae over *}"+ bcolors.ENDC)
 
