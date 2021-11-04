@@ -34,7 +34,7 @@ press A or B : """ + bcolors.ENDC)
     if start2 == "A" or start2 == "a":
         start3 = input(bcolors.UNDERLINE + bcolors.HEADER + "choose your sex Man or Woman : " + bcolors.ENDC)
         if start3 == "man" or start3 == "Man" or start3 == "Woman" or start3 == "woman" or start3 == "m" or start3 == "w":
-            print(bcolors.OKBLUE + "Welcom to the human world " + name1 + """,
+            print(bcolors.OKBLUE + "{ Welcom to the human world }" + name1 + """,
 you walking in the city and you need to gear up and you see smithy workshop you go in and askd hem that you need to gear up and he recommend.
 Sword with shield, Longsword, Bow and arrow, Dual short swords.
 1: Sword woth shild : He have a high Defense but low attack medium speed Difficulty is Easy.
@@ -94,6 +94,7 @@ on your way you see Goblens in here and u have to fight them to passed over or u
                     print(bcolors.OKBLUE +"In this door u walk in to dead end and Goblens are behind you and thy kild u {* Gmae over *}"+ bcolors.ENDC)
 
     elif start2 == "B" or start2 == "b":
-        print(bcolors.OKBLUE +"yooo"+ bcolors.ENDC)
+        print(bcolors.OKBLUE +"{ Welcom to the Goblens world }"+ bcolors.ENDC)
+        print(bcolors.OKBLUE +"You woke up in forest and there are a lot of strange monsters"+ bcolors.ENDC)
 else:
     print(bcolors.OKCYAN + "well it's up to " + name + " you see you later " + bcolors.ENDC)  
