@@ -122,7 +122,13 @@ Wat do u choose? type the weapon name : """ + bcolors.ENDC)
                 print(bcolors.OKBLUE +"You select Bow and arrow"+ bcolors.ENDC)
             elif start11 == "4" or start11 == "Dual swords":
                 print(bcolors.OKBLUE +"You select Dual swords"+ bcolors.ENDC)
-            print(bcolors.OKBLUE +"you got your weapon and u going to the battlefield,in ur way u see dragon  "+bcolors.ENDC)
+            print(bcolors.OKBLUE +"""you got your weapon and u going to the battlefield,in ur way u see dragon, at same time u arrived to the field,            
+they tel u free that u can fight with them, the Human make the first move and they are fighting now, and all what u think about is that dragon"""+bcolors.ENDC)
+            start12 = input(bcolors.UNDERLINE + bcolors.HEADER +"So do u wanna go back and take the dragon or u ill say and fight with ur "+start11+"? stay/back" + bcolors.ENDC)
+            if start12 == "stay" or start12 == "Stay" or start12 == "s":
+                print(bcolors.OKBLUE +"You have a hard time fighting because they do not have team work and the human team have it so u and ur group back of and lost the fight. {Game over}  "+ bcolors.ENDC)
+            elif start12 == "Back" or start12 == "go back" or start12 == "b" or start12 == "back":
+                print(bcolors.OKBLUE +"whene u see that ur group have no team work u did the right ting and go for the exstra bower and because that u win the fight { Congratulation }"+ bcolors.ENDC)
         elif start10 == "Die" or start10 == "die" or start10 == "D" or start10 == "d":
             print(bcolors.OKCYAN +"they kild u {Game over}"+ bcolors.ENDC)
 else:        
