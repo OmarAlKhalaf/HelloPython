@@ -95,6 +95,14 @@ on your way you see Goblens in here and u have to fight them to passed over or u
 
     elif start2 == "B" or start2 == "b":
         print(bcolors.OKBLUE +"{ Welcom to the Goblens world }"+ bcolors.ENDC)
-        print(bcolors.OKBLUE +"You woke up in forest and there are a lot of strange monsters"+ bcolors.ENDC)
-else:
+        print(bcolors.OKBLUE +"You woke up in forest and there are a lot of strange monsters talking!!"+ bcolors.ENDC)
+        print(bcolors.OKBLUE +"So you walk toward them, slowly to hear them,but whene you are close enough ️you see that on of them isn't ther any more."+ bcolors.ENDC)
+        print(bcolors.OKBLUE +"you look behind you and he hit you on your head."+ bcolors.ENDC)
+        print(bcolors.OKBLUE +"you wake up in cave surround with Goblens, and they asked you, do you wanna die or you want to fight with us ? "+ bcolors.ENDC)
+        start == input(bcolors.UNDERLINE + bcolors.HEADER +"Die or Fight ?"+ bcolors.ENDC)
+        if start == "Fight" or start == "fight" or start == "f" or start == "F":
+            print(bcolors.OKBLUE +"Good choice"+ bcolors.ENDC)
+        elif start == "Die" or start == "die" or start == "D" or start == "d":
+            print(bcolors.OKCYAN +"wtf"+ bcolors.ENDC)
+else:        
     print(bcolors.OKCYAN + "well it's up to " + name + " you see you later " + bcolors.ENDC)  
