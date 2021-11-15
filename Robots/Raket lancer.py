@@ -5,4 +5,4 @@ if start == "go":
         time.sleep(1)
         print("lancering in",k)
     k = True
-    print("lanceer de raket")
+    print("lanceer de raket!!")
